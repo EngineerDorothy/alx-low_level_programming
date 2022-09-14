@@ -14,8 +14,6 @@ void times_table(void)
 
 	int row, column, product, tens, ones;
 
-
-
 	for (row = 0; row <= 9; row++)
 
 	{
@@ -29,8 +27,6 @@ void times_table(void)
 			tens = product / 10;
 
 			ones = product % 10;
-
-
 
 			if (column == 0)
 
@@ -55,10 +51,8 @@ void times_table(void)
 			}
 
 			else
-
 			{
-
-				_putchar(',');
+		 	        _putchar(',');
 
 				_putchar(' ');
 
