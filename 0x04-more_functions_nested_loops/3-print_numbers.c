@@ -1,25 +1,23 @@
 #include "main.h"
 
 /**
- * print_numbers - print  0 - 9
- * Return: void
+ * print_numbers - func name
  */
+
 
 void print_numbers(void)
 
 {
 
-	char a = 0;
+	int a;
 
 
 
-	while (a <= 9)
+	for (a = 48; a <= 57; a++)
 
 	{
 
-		_putchar(a + '0');
-
-		a++;
+		_putchar(a);
 
 	}
 
