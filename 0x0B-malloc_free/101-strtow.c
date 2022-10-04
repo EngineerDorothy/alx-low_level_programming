@@ -110,10 +110,10 @@ int print_words(int *pos, char **m, char *str, int words)
  * Return: pointer to the array
  * @str: pointer to the array
  */
-
 char **strtow(char *str)
 {
 	int words;
+
 	char **m = NULL;
 	int *pos = NULL;
 
