@@ -1,33 +1,28 @@
+#include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
- * malloc_checked - dynamically allocates memory
- * @b: number of bytes
- * Return: pointer to allocated memory
+ * malloc_checked - allocating memory using malloc.
+ * @b: unsigned int
+ * Return: if falled return null, if success return 98.
  */
 
 void *malloc_checked(unsigned int b)
-
 {
 
-	int *pointer;
+	void *i;
 
 
 
-	pointer = (int *) malloc(b);
+	i = malloc(b);
 
-	if (pointer == NULL)
 
-	{
+
+	if (i == NULL)
 
 		exit(98);
 
-	}
-
-	else
-
-		return (pointer);
-
-
+	return (i);
 
 }
