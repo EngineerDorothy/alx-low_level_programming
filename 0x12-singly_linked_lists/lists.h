@@ -1,7 +1,18 @@
-#ifndef _LISTS_H_
-#define _LISTS_H_
+#ifndef LISTS_H
+#define LISTS_H
 
-#include <stddef.h>
+
+
+/*
+ * Desc: header file containinf prototypes and definitions
+ * for all functions and types written in this proj
+ */
+
+
+
+#include <stdlib.h>
+
+
 
 /**
  * struct list_s - singly linked list
@@ -9,7 +20,7 @@
  * @len: length of the string
  * @next: points to the next node
  * Description: singly linked list node structure
- * for Holberton project
+ *              for Alx project
  */
 
 typedef struct list_s
@@ -26,8 +37,6 @@ typedef struct list_s
 
 
 
-int _putchar(char);
-
 size_t print_list(const list_t *h);
 
 size_t list_len(const list_t *h);
@@ -40,4 +49,4 @@ void free_list(list_t *head);
 
 
 
-#endif /* _LISTS_H_ */
+#endif /* LISTS_H */
