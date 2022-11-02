@@ -57,12 +57,12 @@ int main(int argc, char *argv[])
 }
 
 /**
- * * free_close - free malloc'd memory and closes opened files
- * * @buf: pointer to the string buf
- * * @fd1: pointer to the fd_from
- * * @fd2: pointer to fd_to
- * * Return: returns nothing
- * */
+ * free_close - free malloc'd memory and closes opened files
+ * @buf: pointer to the string buf
+ * @fd1: pointer to the fd_from
+ * @fd2: pointer to fd_to
+ * Return: returns nothing
+ */
 void free_close(char **buf, int *fd1, int *fd2)
 {
 	int n, n1;
